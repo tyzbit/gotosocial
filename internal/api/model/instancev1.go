@@ -71,6 +71,8 @@ type InstanceV1 struct {
 	URLs InstanceV1URLs `json:"urls,omitempty"`
 	// Statistics about the instance: number of posts, accounts, etc.
 	Stats map[string]int `json:"stats,omitempty"`
+	// Custom URL for Semaphore link on the homepage
+	SemaphoreURL string
 	// URL of the instance avatar/banner image.
 	// example: https://example.org/files/instance/thumbnail.jpeg
 	Thumbnail string `json:"thumbnail"`
