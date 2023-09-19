@@ -44,7 +44,7 @@
 				<div>
 					<h2>Semaphore</h2>
 					<p>Semaphore is a web client designed for speed and simplicity.</p>
-					<a href="https://semaphore.social/" target="_blank" rel="noopener">Use Semaphore</a>
+					<a href="{{ if .instance.SemaphoreURL }}{{ .instance.SemaphoreURL }}{{ else }}https://semaphore.social/{{ end }}" target="_blank" rel="noopener">Use Semaphore</a>
 				</div>
 			</div>
 			<div class="entry">
